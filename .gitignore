@@ -1,6 +1,14 @@
+# macOS files
 .DS_Store
-.DS_Store
+
+# Python bytecode files
 *.pyc
 *.pyo
 __pycache__/
+
+# Virtual environments
 venv/
+
+# SSH agent files (если они были случайно добавлены)
+eval $(ssh-agent -s)
+eval $(ssh-agent -s).pub
